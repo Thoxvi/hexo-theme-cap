@@ -1,0 +1,12 @@
+<nav>
+  <a><%-config.title || ""%></a>
+  <div>
+    <ul>
+      <% for (var i in config.menu){ %>
+        <li class="nav-item">
+          <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</nav>

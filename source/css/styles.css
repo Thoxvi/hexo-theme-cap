@@ -1,0 +1,18 @@
+
+/* Diy */
+.full-img {
+  padding: 0px;
+  margin: 0px;
+}
+
+.in-the-top {
+	position: fixed;
+  width: 99%;
+	z-index:9999;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0rem 0rem 0.5rem 0rem
+}
