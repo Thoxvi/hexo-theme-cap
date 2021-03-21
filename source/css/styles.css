@@ -1,8 +1,10 @@
 
 /* Diy */
-.full-img {
+.full-img img {
   padding: 0px;
   margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 .in-the-top {
