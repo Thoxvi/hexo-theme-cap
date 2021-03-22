@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head tag -->
-  <%- partial('_partial/head') %>
-  <body>
-  	<div>
-      <!-- Header -->
-      <%- partial('_partial/header') %>
-  			<%- body %>
-      <% if (page.total > 1) { %>
+<!-- Head tag -->
+<%- partial('_partial/head') %>
+
+<body>
+  <div>
+    <!-- Header -->
+    <%- partial('_partial/header') %>
+    <%- body %>
+    <% if (page.total > 1) { %>
     <nav>
-        <%- paginator({prev_text: '<', next_text: '>'}) %>
+      <%- paginator({prev_text: '<', next_text: '>'}) %>
     </nav>
-<% } %>
-  	</div>
-    <!-- After footer scripts -->
-    <%- partial('_partial/footer') %>
-  </body>
+    <% } %>
+  </div>
+  <!-- After footer scripts -->
+  <%- partial('_partial/footer') %>
+</body>
+
 </html>
