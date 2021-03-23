@@ -29,7 +29,7 @@
 
 html {
   color: rgb(255, 255, 255);
-  background-color: rgb(15, 15, 15);
+  background-color: #0d1117;
 }
 
 a {
@@ -133,4 +133,8 @@ nav li {
 .hovereffect:hover img {
   opacity: 0.3;
   filter: alpha(opacity=1);
+}
+
+#gitalk-container {
+  margin: 10px 40px;
 }

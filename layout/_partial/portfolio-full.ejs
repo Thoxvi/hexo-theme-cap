@@ -2,7 +2,7 @@
 <div>
   <h1><%- item.title || theme.default_post_title %></h1>
 </div>
-<div class="main-content">
+<div class="main-content markdown-body-dark">
   <%- item.content %>
 </div>
 
@@ -23,5 +23,8 @@
   })
   gitalk.render('gitalk-container');
 </script>
+<div class="markdown-body-dark">
+  <hr />
+</div>
 <% } %>
 <% } %>
