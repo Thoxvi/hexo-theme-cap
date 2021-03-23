@@ -4,3 +4,11 @@ google_analytics:
 # Default portfolio post
 default_cover_image: images/white.jpg
 default_post_title: Untitled
+
+# gitalk:
+#   enable: false
+#   owner:
+#   repo:
+#   admin:
+#   clientID:
+#   clientSecret:
