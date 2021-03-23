@@ -2,13 +2,13 @@
   <div>
     <ul>
       <% for (var i in config.menu){ %>
-        <li class="nav-item">
-          <% if(i === "|") { %>
-            <span class="nav-link">|</span>
-          <% } else { %>
-            <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
-          <% } %>
-        </li>
+      <li class="nav-item">
+        <% if(i === "|") { %>
+        <span class="nav-link">|</span>
+        <% } else { %>
+        <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+        <% } %>
+      </li>
       <% } %>
     </ul>
   </div>

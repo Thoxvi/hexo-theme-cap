@@ -18,6 +18,7 @@
   padding: 0rem 0rem 0.5rem 0rem
 }
 
+/* Nav bar */
 .nav-link {
   text-decoration: none;
 }
@@ -112,7 +113,7 @@ nav li {
 .hovereffect:hover .overlay-text {
   opacity: 1;
   filter: alpha(opacity=100);
-  color: white; 
+  color: white;
   text-shadow: black 0.1em 0.1em 0.2em
 }
 
@@ -137,4 +138,8 @@ nav li {
 
 #gitalk-container {
   margin: 10px 40px;
+}
+
+h1 {
+  margin-top: 0px;
 }
