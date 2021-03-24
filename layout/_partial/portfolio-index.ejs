@@ -1,7 +1,7 @@
 <a href="<%- config.root %><%- item.path %>">
   <% if (item.cover_image){ %>
   <div class="hovereffect">
-    <img class="full-img" src="<%- config.root %><%- item.path %><%- item.cover_image %>"
+    <img class="full-img" loading="lazy" src="<%- config.root %><%- item.path %><%- item.cover_image %>"
       alt="<%- item.title || theme.default_post_title || "Untitled" %>">
     <% } %>
     <div class="overlay">
